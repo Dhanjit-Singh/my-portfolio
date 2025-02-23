@@ -73,101 +73,121 @@ function About() {
                         <p>Expertise in modern web technologies, full-stack development, API integration, and <br /> scalable architectures to build efficient and user-friendly applications.</p>
                     </div>
                     <div className="skills-details">
-                        <Grid container spacing={6}>
+                        <Grid container spacing={8}>
                             <Grid size={6}>
                                 <div>
-                                    <p>HTML
-                                        <span className='percentage-left'>100%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "100%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>HTML
+                                            <span className='percentage-left'>100%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "100%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>CSS
-                                        <span className='percentage-left'>80%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "80%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>CSS
+                                            <span className='percentage-left'>80%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "80%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>Bootstrap
-                                        <span className='percentage-left'>90%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "90%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>Bootstrap
+                                            <span className='percentage-left'>90%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "90%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>MySql
-                                        <span className='percentage-left'>85%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "85%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>MySql
+                                            <span className='percentage-left'>85%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "85%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>React js
-                                        <span className='percentage-left'>70%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "70%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>React js
+                                            <span className='percentage-left'>70%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "70%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
                                 </div>
                             </Grid>
                             <Grid size={6}>
                                 <div>
-                                    <p>PHP
-                                        <span className='percentage-right'>90%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "80%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>PHP
+                                            <span className='percentage-right'>90%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "90%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>Material UI
-                                        <span className='percentage-right'>60%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "60%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>Material UI
+                                            <span className='percentage-right'>60%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "60%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>JavaScript
-                                        <span className='percentage-right'>80%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "80%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>JavaScript
+                                            <span className='percentage-right'>80%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "80%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>Laravel
-                                        <span className='percentage-right'>95%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "95%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>Laravel
+                                            <span className='percentage-right'>95%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "95%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
 
-                                    <p>Node js
-                                        <span className='percentage-right'>50%</span>
-                                    </p>
-                                    <p style={{ backgroundColor: "#e9e8e6" }}>
-                                        <span style={{
-                                            height: "10px", width: "50%", backgroundColor: "#34b7a7", display: "flex"
-                                        }}></span>
-                                    </p>
+                                    <div className="skill-list">
+                                        <p>Node js
+                                            <span className='percentage-right'>50%</span>
+                                        </p>
+                                        <p className="skill-bg-color">
+                                            <span style={{
+                                                height: "10px", width: "50%", backgroundColor: "#34b7a7", display: "flex"
+                                            }}></span>
+                                        </p>
+                                    </div>
                                 </div>
                             </Grid>
                         </Grid>

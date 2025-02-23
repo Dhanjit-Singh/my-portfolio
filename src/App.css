@@ -273,6 +273,7 @@ footer .social-links a{
 
 .skills-details{
   padding: 10px 100px;
+  margin: 0 0 50px 0;
 }
 
 .percentage-left{
@@ -280,7 +281,7 @@ footer .social-links a{
   text-align: end;
   align-items: end;
   position: absolute;
-  right: 52%;
+  right: 53%;
 }
 
 .percentage-right{
@@ -394,3 +395,13 @@ footer .social-links a{
   width: 100%;
   line-height: 10px;
 }
+
+.skill-list{
+  line-height: 0px;
+  margin-bottom: 40px;
+}
+
+.skill-bg-color{
+  background-color: #e9e8e6;
+}
+
